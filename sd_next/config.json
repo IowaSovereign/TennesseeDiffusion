@@ -1,0 +1,71 @@
+{
+  "sdp_options": [
+    "Flash attention",
+    "Memory attention",
+    "Math attention"
+  ],
+  "xformers_options": [
+    "Flash attention"
+  ],
+  "cuda_compile": [],
+  "nncf_compress_weights": [
+    "ControlNet",
+    "Text Encoder",
+    "Model"
+  ],
+  "ipex_optimize": [],
+  "openvino_devices": [],
+  "nncf_quantize": [],
+  "quicksettings_list": [
+    "sd_model_checkpoint",
+    "sd_model_refiner",
+    "sd_vae",
+    "show_progress_type",
+    "freeu_enabled"
+  ],
+  "show_samplers": [],
+  "postprocessing_enable_in_main_ui": [],
+  "postprocessing_operation_order": [],
+  "interrogate_clip_skip_categories": [
+    "artists",
+    "movements",
+    "flavors"
+  ],
+  "extra_networks": [
+    "All"
+  ],
+  "disabled_extensions": [],
+  "clip_skip": 1,
+  "uni_pc_lower_order_final": true,
+  "uni_pc_order": 2,
+  "styles_dir": "models\\styles",
+  "theme_type": "Modern",
+  "sd_model_checkpoint": "SDXL1.0 - JuggernautXL V10 [d91d35736d]",
+  "sd_checkpoint_hash": "d91d35736d8f2be038f760a9b0009a771ecf0a417e9b38c244a84ea4cb9c0c45",
+  "gradio_theme": "Default",
+  "nan_skip": true,
+  "torch_gc_threshold": 30,
+  "freeu_s1": 0.6,
+  "hypertile_unet_enabled": true,
+  "inference_mode": "inference-mode",
+  "keep_incomplete": false,
+  "samples_format": "png",
+  "jpeg_quality": 100,
+  "directories_filename_pattern": "[model_name]",
+  "samples_filename_pattern": "[datetime<%Y-%m-%d_%H-%M-%S_%f>]-[model_name]-[sampler]",
+  "motd": false,
+  "img2img_color_correction": true,
+  "lora_preferred_name": "alias",
+  "sd_checkpoint_autoload": false,
+  "multiple_tqdm": true,
+  "ad_max_models": 5,
+  "uiux_hide_legacy": false,
+  "freeu_s2": 0.4,
+  "hypertile_unet_swap_size": 3,
+  "cross_attention_optimization": "Dynamic Attention SDP",
+  "diffusers_vae_tiling": true,
+  "control_move_processor": true,
+  "huggingface_token": "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",
+  "dynamic_attention_slice_rate": 2,
+  "diffusers_model_cpu_offload": true
+}
